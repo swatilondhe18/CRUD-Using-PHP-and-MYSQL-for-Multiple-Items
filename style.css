@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D071F9;
+    padding: 0 10px;
+}
+
+.Container {
+
+    max-width: 500px;
+    width: 100%;
+    background-color: aliceblue;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+
+.Container .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #D071F9;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Container .Form {
+    width: 100%;
+}
+
+.Container .Form .input_field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Container .Form .input_field label {
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.Container .Form .input_field .input,
+.Container .Form .input_field .input textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #D071F9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transform: all 0.2s ease;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.Container .Form .input_field .selectbox {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #D071F9;
+    appearance: none;
+    padding-left: 8px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.Container .Form .input_field .input:focus,
+.Container .Form .input_field textarea:focus,
+.Container .Form .input_field select:focus {
+    border: 1px solid #991ece;
+}
+
+.btn1 {
+    width: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 10px;
+    height: auto;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    background-color: #D071F9;
+    color: white;
+    cursor: pointer;
+}
+
+.btn1:focus {
+    outline: none;
+    background-color: #991ece;
+}
